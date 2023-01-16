@@ -1,7 +1,7 @@
 // import the function from the file
 const sum = require("./sum")
 
-// The jest.md has the commented version of this piece of code
+// The jest-tutorial/README.md has the commented version of this piece of code
 describe("Sum function testing", () => {
     it("should add 1 + 2 to equal 3", () => {
         const result = sum(1, 2);
