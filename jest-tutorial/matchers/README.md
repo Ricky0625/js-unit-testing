@@ -58,7 +58,10 @@ A describe block is **not a test case**, it just help us to group tests together
 To run the test, in `package.json`, under the `script` section, change the value of `"test"` to `"jest"`. After that run:
 
 ```bash
-npm
+npm run test
+
+# if want to specify a file, do:
+npm run test filename
 ```
 
 ### Matcher functions
