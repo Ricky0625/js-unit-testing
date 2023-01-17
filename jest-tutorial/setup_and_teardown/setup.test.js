@@ -1,7 +1,6 @@
 let animals = [];
 
 beforeAll(() => {
-    console.log("BEFORE ALL");
     animals = ['elephant', 'zebra', 'bear', 'tiger'];
 })
 
